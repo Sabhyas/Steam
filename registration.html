@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+    <link rel="stylesheet" href="style2.css">
+</head>
+<body>
+    <div class = "front">
+        <form class="form" action="">
+          <div class="row">
+              <label class="form__label" for="email">Your Email <span class="form__tooltip" data-tooltip="Please enter your email address">?</span></label>
+              </div>
+           <div class="row"> 
+              <input class="form__text" type="email" id="email" name="email">
+            </div>
+          <div class="row">
+              <label class="form__label" for="password">Password <span class="form__tooltip" data-tooltip="Minimum 12 characters, at least one capital and one number">?</span></label>
+          </div>
+          <div class="row">
+              <input class="form__text" type="password" id="password" name="password">
+            </div>
+          <div class="row">
+              <label class="form__label" for="password-reenter">Re-enter password</label>
+          </div>
+          <div class="row">
+              <input class="form__text" type="password" id="password-reenter" name="password-reenter">
+          </div>
+           <div class="row fineprint">
+                <input class="form__checkbox" type="checkbox" id="agreement" name="agreement">
+                <label class = "" for="agreement">I am 13 years of age or older AND agree to the <a href="#">terms and serivces</a>.</label>
+           </div>
+           <div class="row">
+                <img class="recaptcha" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/308367/recaptcha-dark.png" alt="">
+           </div>
+          <div class="row">
+              <button class="button">Sign up now</button>
+          <a href="Login.html" class="fineprint">I already have an account</a>  
+          </div>
+            </form>
+        </div>
+</body>
+</html>

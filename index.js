@@ -36,4 +36,3 @@ function nextSlide(){
     showSlide(slideIndex);
 }
 
-

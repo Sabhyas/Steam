@@ -2,6 +2,7 @@
     background-color: #171d25;
     list-style-type: None;
     overflow: hidden;
+    overflow-x: hidden;
     padding: 20px;
     margin-top: -29px;
     width: 1300px;
@@ -9,6 +10,7 @@
 
 body{
     margin: 0px;
+    overflow-x: hidden;
     height: 100%;
     scrollbar-color: red;
     min-height: 100%;
@@ -498,6 +500,69 @@ img.displaySlide{
     position: relative;
     height: 1200px;
   }
+
+  .table2 {
+    background-color: orangered;
+    position: relative;
+    left: 0px;
+    bottom: 260px;
+    border: 2px solid crimson;
+    width: 1100px;
+    height: 309px;
+  }
+
+  .table2 p {
+    text-align: center;
+    color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    position: relative;
+    bottom: 320px;
+    right: 70px;
+  }
+
+  .phasmophobia{
+    width: 300px;
+    height: 310px;
+  }
+
+  .price2 {
+    position: relative;
+    bottom: 590px;
+    right: 60px;
+  }
+
+  .cart2{
+    position: relative;
+    bottom: 590px;
+    right: 30px;
+  }
+
+  .user-info-topcorner {
+  position: fixed;
+  top: 10px;
+  left: 10px;
+  display: flex;
+  align-items: center;
+  background-color: #1c1c1c;
+  padding: 8px 12px;
+  border-radius: 8px;
+  box-shadow: 0 0 5px rgba(0,0,0,0.5);
+  z-index: 999;
+}
+
+.avatar-img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.nickname-text {
+  color: white;
+  font-weight: bold;
+  font-family: sans-serif;
+}
+
 
 @keyframes appear{
     from{opacity: 0;}
